@@ -4,7 +4,7 @@ echo "VERIF EMAIL MANUAL, BUKA MAILNESIA.COM\n";
 echo "?Jumlah	";
 $b = trim(fgets(STDIN));
 for($a=0;$a<$b;$a++){
-	$email = "idhamraf.tt@gmail.com;
+	$email = "idhamraf.tt@gmail.com"
 	echo "[EMAIL : ".strtoupper($email)."]\n";
 	MakeAccount:
 		$asw = @file_get_contents("bt_booking_com.txt");
